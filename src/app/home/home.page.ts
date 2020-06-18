@@ -25,9 +25,9 @@ export class HomePage implements OnInit {
       (data) => console.log("Add", data)).catch((error) => console.error(error))
   }
 
-  substract() {
-    this.pluginService.substract(this.param1, this.param2).then(
-      (data) => console.log("Substract", data)).catch((error) => console.error(error))
+  subtract() {
+    this.pluginService.subtract(this.param1, this.param2).then(
+      (data) => console.log("subtract", data)).catch((error) => console.error(error))
   }
 
 }

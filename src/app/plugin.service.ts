@@ -30,8 +30,8 @@ export class PluginService extends IonicNativePlugin {
     return x;
   }
 
-  substract(num1, num2): Promise<any> {
-    const x = cordova(this, 'substract', {}, [{ param1: num1, param2: num2 }])
+  subtract(num1, num2): Promise<any> {
+    const x = cordova(this, 'subtract', {}, [{ param1: num1, param2: num2 }])
     return x;
   }
 
