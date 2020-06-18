@@ -7,11 +7,9 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <div style="color: white;">
-
-  </div>
+  <div style="color: white;"></div>
   <ion-input type="number" [(ngModel)]="param1"></ion-input>
   <ion-input type="number" [(ngModel)]="param2"></ion-input>
-  <ion-button>Add</ion-button>
-  <ion-button>Substract</ion-button>
+  <ion-button (click)="add()">Add</ion-button>
+  <ion-button (click)="substract()">Substract</ion-button>
 </ion-content>
