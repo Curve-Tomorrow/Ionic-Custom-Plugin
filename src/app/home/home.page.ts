@@ -20,14 +20,20 @@ export class HomePage implements OnInit {
     console.log('**** ngOnInit');
   }
 
-  add() {
-    this.pluginService.add(this.param1, this.param2).then(
-      (data) => console.log("Add", data)).catch((error) => console.error(error))
-  }
+  // add() {
+  //   this.pluginService.add(this.param1, this.param2).then(
+  //     (data) => console.log("Add", data)).catch((error) => console.error(error))
+  // }
 
-  subtract() {
-    this.pluginService.subtract(this.param1, this.param2).then(
-      (data) => console.log("subtract", data)).catch((error) => console.error(error))
+  // subtract() {
+  //   this.pluginService.subtract(this.param1, this.param2).then(
+  //     (data) => console.log("subtract", data)).catch((error) => console.error(error))
+  // }
+
+  startRecording() {
+    this.pluginService.startRecording().then(
+      (data) => console.log("startRecording", data)).catch((error) => console.error(error))
+
   }
 
 }

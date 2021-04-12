@@ -1,15 +1,12 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-title>
+            Blank
+        </ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <div style="color: white;"></div>
-  <ion-input type="number" [(ngModel)]="param1"></ion-input>
-  <ion-input type="number" [(ngModel)]="param2"></ion-input>
-  <ion-button (click)="add()">Add</ion-button>
-  <ion-button (click)="subtract()">subtract</ion-button>
+    <div style="color: white;"></div>
+    <ion-button (click)="startRecording()">Start recording</ion-button>
 </ion-content>
