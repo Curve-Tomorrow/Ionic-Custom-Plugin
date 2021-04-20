@@ -1,6 +1,6 @@
 {
     "name": "plugin-example",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Ionic Framework",
     "homepage": "https://ionicframework.com/",
     "scripts": {
@@ -59,7 +59,7 @@
         "ts-node": "~8.3.0",
         "tslint": "~6.1.0",
         "typescript": "~3.8.3",
-        "videorecorder": "file:../VideoRecordingPlugin"
+        "videorecorder": "github:Curve-Tomorrow/VideoRecorderPlugin#ios-bug-fixes"
     },
     "description": "An Ionic project",
     "cordova": {
@@ -69,7 +69,8 @@
             "cordova-plugin-device": {},
             "cordova-plugin-splashscreen": {},
             "cordova-plugin-ionic-webview": {},
-            "cordova-plugin-ionic-keyboard": {}
+            "cordova-plugin-ionic-keyboard": {},
+            "cordova-plugin-videorecording": {}
         },
         "platforms": [
             "ios"
