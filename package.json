@@ -59,7 +59,7 @@
         "ts-node": "~8.3.0",
         "tslint": "~6.1.0",
         "typescript": "~3.8.3",
-        "videorecorder": "github:Curve-Tomorrow/VideoRecorderPlugin#ios-bug-fixes"
+        "videorecorder": "github:Curve-Tomorrow/VideoRecorderPlugin#ios-read-ionic-payload"
     },
     "description": "An Ionic project",
     "cordova": {
