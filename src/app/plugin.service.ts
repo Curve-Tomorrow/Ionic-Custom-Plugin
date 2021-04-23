@@ -53,6 +53,7 @@ export class PluginService extends IonicNativePlugin {
   startRecording(): Promise<any> {
     console.log('recording called')
     const x = cordova(this, 'startRecording', {}, [{ 'cameraData': this.questionData }])
+    console.log('Recevied data from ios', x['video']);
     return x;
   }
 }
