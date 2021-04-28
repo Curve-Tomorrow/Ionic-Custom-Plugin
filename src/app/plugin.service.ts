@@ -7,7 +7,7 @@ export class PluginService extends IonicNativePlugin {
   static pluginName = 'videorecorder';
   static plugin = 'cordova-plugin-videorecording';
   static pluginRef = 'VideoRecorder';
-  static repo = 'https://github.com/KhadijaDaruwala/Cordova-Plugin-Example.git';
+  static repo = 'https://github.com/Curve-Tomorrow/VideoRecorderPlugin.git';
   static platforms = ['iOS']
 
   questionData = {
